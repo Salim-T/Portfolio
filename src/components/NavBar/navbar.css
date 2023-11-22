@@ -1,6 +1,6 @@
 .navbar{
-    background: white;
-    color: black;
+    /* background: white;
+    color: black; */
     height: 6rem;
     width: 100%;
     margin:0 auto;
@@ -26,9 +26,11 @@
 }
 
 .desktopMenuListItem:hover{
-    color: #150ed2;
+    /* color: #150ed2; */
     padding-bottom: 0.5rem;
-    border-bottom:3px solid #150ed2;
+    /* border-bottom:3px solid #150ed2; */
+    border-bottom:3px solid white;
+
 }
 
 .desktopMenuBtn{
@@ -49,7 +51,6 @@
 .desktopMenuBtn:hover{
     background:white;
     color:#150ed2;
-    border:2px solid #150ed2
 }
 .desktopMenuImg{
     object-fit:cover;
