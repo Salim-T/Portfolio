@@ -1,0 +1,16 @@
+.whiteBtn {
+    background:rgb(21,14,210);
+    color: white;
+    border:none;
+    padding:1rem 2rem;
+    border-radius:2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.whiteBtn:hover{
+    background:white;
+    color:rgb(21,14,210);
+}
