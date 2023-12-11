@@ -1,7 +1,7 @@
 .navbar{
-    /* background: white;
-    color: black; */
-    height: 6rem;
+    background: rgb(11,14,19);
+    /*color: black; */
+    height: 5rem;
     width: 100%;
     margin:0 auto;
     padding: 1rem 2rem;
@@ -34,14 +34,12 @@
 }
 
 .desktopMenuBtn{
-    background:#150ed2;
-    color:white;
+    background:white;
+    color: rgb(11,14,19);
     border:none;
-    display:flex;
-    align-items: center;
-    justify-content: center;
     padding:1rem 2rem;
     border-radius:2rem;
+    border: 2px solid white;
     font-family: 'Montserrat', sans-serif;
     text-transform:uppercase;
     font-weight: bold;
@@ -49,9 +47,11 @@
 }
 
 .desktopMenuBtn:hover{
-    background:white;
-    color:#150ed2;
+    background:rgb(11,14,19);
+    color:white;
+    border: 2px solid white;
 }
+
 .desktopMenuImg{
     object-fit:cover;
     height:1rem;
