@@ -1,0 +1,5 @@
+Ajouter le css pour le bouton dans nav :
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
