@@ -17,7 +17,7 @@ const Intro = () => {
                 <WhiteButton text="Hire me" />
             </div>
             {/* <img src={image2} alt="Profile" className="bg" /> */}
-            <img src={illustration3} alt="Illustration" className="illustration" />
+            <img src={illustration3}  alt="Illustration" className="illustration"/>
             {/* <img src={image5} alt="Profile" className="bg" /> */}
         </section>
     );
