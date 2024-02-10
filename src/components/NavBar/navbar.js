@@ -7,7 +7,7 @@ import WhiteButton from '../Button/WhiteButton'
 const Navbar = () => {
   return (
     <nav className='navbar'>
-        <img className='logo'/>
+        <img className='logo' alt='logo'/>
         <div className="desktopMenu">
           <Link className="desktopMenuListItem">Home</Link>
           <Link className="desktopMenuListItem">About</Link>
