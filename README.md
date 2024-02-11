@@ -1,3 +1,8 @@
+Inspired by GreatStack 
+
+the video -> https://www.youtube.com/watch?v=4ag1LsgIUc0&t=2274s&ab_channel=GreatStack
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
