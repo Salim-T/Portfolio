@@ -1,13 +1,12 @@
 #skills {
     overflow: hidden;
-    background: white;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .skillsTitle {
@@ -18,7 +17,7 @@
     /* see how the margin goes on responsive */
 }
 
-.skillsText {
+.skillsDescription {
     font-weight: 400;
     font-size: 0.99rem;
     max-width: 53rem;
@@ -30,15 +29,21 @@
     margin : 0.9rem 0;
     text-align: left;
     max-width: 80%;
-    color: white;
+    /* color: white; */
 }
 
 .skillBars {
     display: flex;
     margin: 1rem;
     padding: 1.2rem 2rem;
-    background: black;
+    background: rgb(18, 23, 31);
     border-radius: 0.5rem;
+    /* cursor: pointer; */
+}
+
+.skillBars:hover {
+    background: white;
+    color: rgb(13,17,23);
 }
 
 .skillBarImg {
