@@ -1,18 +1,20 @@
 #intro {
-    height: 74vh;
-    width: 100vw;
+    width: 100%;
+    margin-top: 6rem;
     padding: 0 2rem;
     position: relative;
     color: white;
+    margin-bottom: 9rem;
 }
 
 .illustration {
     position: absolute;
-    bottom:5rem;
+    bottom:-3rem;
     right: 0;
     z-index: -1;
     object-fit: cover;
     height: 70vh;
+    /* see for the image*/
 }
 
 .introPresentation {
@@ -24,7 +26,7 @@
 }
 
 .presentationParagraph {
-    margin-top: 1rem;
+    margin: 1rem 0 1rem 0;
     color:rgb(126,128,130);
     font-size: 1.3rem;
     font-weight: 500;
@@ -55,6 +57,14 @@
         display:none;
     }
 }
+
+@media screen and (max-width: 750px) {
+    #intro {
+        margin-top: 3rem;
+    }
+}
+
+
 
 @media screen and (max-width: 420px) {
     .introPresentation {
