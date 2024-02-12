@@ -1,0 +1,74 @@
+#projects {
+    /* min-height: calc(100vh - 4rem);  */
+    /* width: 100vw; */
+    /* max-width: 60rem;  */
+    /* margin: 0 auto; */
+    /* overflow: hidden; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.projectsTitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+.projectsDescription {
+    font-weight: 400;
+    font-size: 0.99rem;
+    padding: 0 2rem;
+}
+
+.projectsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* permet d'afficher les elements flex à la ligne */
+    width: 100vw;
+    max-width: 65rem;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+.projectsImage {
+   object-fit: cover;
+   height: 24rem;
+   margin: 0.5rem;
+}
+
+.blueButton {
+    background:rgb(21,14,210);
+    color: white;
+    border:none;
+    padding:1rem 2rem;
+    border-radius:2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blueButton:hover{
+    background:white;
+    color:rgb(21,14,210);
+}
+
+@media screen and (max-width: 1022px) {
+    .projectsDescription {
+        max-width: 44rem;
+    }
+}
+
+@media screen and (max-width: 692px) {
+    .projectsImage {
+        height: 52vw;
+    }
+}
+
