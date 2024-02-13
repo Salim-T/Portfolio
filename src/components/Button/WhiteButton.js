@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 const WhiteButton = (props) => {
     return (
-        <Link><button className="whiteBtn">{props.text}</button></Link>
+        <Link className={props.className} ><button className="whiteBtn">{props.text}</button></Link>
     );
 }
 
