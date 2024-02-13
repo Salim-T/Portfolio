@@ -18,8 +18,8 @@ const projects = () => {
                 <img src={Portfolio2} alt="Project 2" className="projectsImage" />        
                 <img src={Portfolio3} alt="Project 3" className="projectsImage" />        
                 <img src={Portfolio4} alt="Project 4" className="projectsImage" />        
-                <img src={Portfolio5} alt="Project 5" className="projectsImage" />        
-                <img src={Portfolio6} alt="Project 6" className="projectsImage" />        
+                <img src={Portfolio5} alt="Project 5" className="projectsImage imageDisplayNone" />        
+                <img src={Portfolio6} alt="Project 6" className="projectsImage imageDisplayNone" />        
             </div>
             <a target="_blank" class="blueButton" href="https://github.com/Salim-T">See more on github</a>
         </section>

@@ -64,6 +64,9 @@
     .projectsDescription {
         max-width: 44rem;
     }
+    .imageDisplayNone {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 692px) {
